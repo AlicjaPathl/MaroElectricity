@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# SQLite / baza danych
+*.db
+*.sqlite
+*.sqlite3
+
+# Storage / dane symulacji
+storage/
+data/
+*.bin
+
+# Logi
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / konfiguracja lokalna
+.env
+.env.*
+!.env.example
